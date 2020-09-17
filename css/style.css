@@ -1,0 +1,36 @@
+body {
+    background-color: black
+
+}
+.mainDiv {
+    width: 600px;
+    height: 600px;
+    background-color: brown;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.mainDiv > div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.red{
+    background-color: red;
+
+}
+
+.yellow{
+    background-color: yellow;
+  
+
+}
+
+.green{
+    background-color: green;
+}
